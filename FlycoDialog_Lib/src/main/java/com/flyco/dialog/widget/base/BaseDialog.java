@@ -115,7 +115,7 @@ public abstract class BaseDialog<T extends BaseDialog<T>> extends Dialog {
      */
     public BaseDialog(Context context, int backGroundColor) {
         super(context, R.style.dialog);
-        setDialogTheme();
+//        setDialogTheme();
         mContext = context;
         mTag = getClass().getSimpleName();
         setCanceledOnTouchOutside(true);
